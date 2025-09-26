@@ -84,17 +84,7 @@ README.md         This document.
 LICENSE           MIT licence text.
 ```
 
-## Development
-
-- Run formatting and linting before opening a pull request:
-  ```bash
-  ruff check .
-  black src examples scripts
-  ```
-- Add tests for new functionality where practical.
-- Keep large data artefacts outside the repository; the zero-shot helpers expect HDF5 datasets.
-
 ## License
 
-All code in this repository is released under the MIT License. Portions derived from the OpenAI
+All code in this repository is released under the Apache-2.0 License. Portions derived from the OpenAI
 CLIP repository retain the original copyright notice.
